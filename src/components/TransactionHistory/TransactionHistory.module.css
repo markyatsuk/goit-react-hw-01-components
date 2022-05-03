@@ -1,0 +1,24 @@
+.transactionHistory {
+  margin-bottom: 50px;
+}
+
+.titles {
+  background-color: rgb(94, 178, 242);
+  color: aliceblue;
+  height: 50px;
+  width: 250px;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.item {
+  composes: titles;
+  color: rgb(4, 10, 16);
+  background-color: #fff;
+}
+
+.odd {
+  composes: titles;
+  color: rgb(4, 10, 16);
+  background-color: rgb(239, 236, 236);
+}
